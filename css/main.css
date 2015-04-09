@@ -1,0 +1,165 @@
+/*html*/
+html{
+  font-family: 'Dosis', sans-serif;
+  margin:0em 0em 0em 0em;
+  padding:0em 0em 0em 0em;
+  box-sizing:border-box;
+  background-color:none;
+}
+
+*,*::before, *::after{
+  box-sizing:inherit;
+}
+
+/*body*/
+body {
+  margin:0em;
+  padding:0em;
+}
+
+/*Header*/
+
+header {
+  background-image: url("../img/background.jpg");
+}
+
+h1 {
+  background-image: url("../img/beetle-logo.svg"), url("../img/beetle-logo.svg");
+  background-repeat: no-repeat;
+  background-position:left, right;
+  background-size: 1em auto, 1em auto;
+  color: #512200;
+  text-align: center;
+  width: 95%;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 3em;
+}
+
+/*h1*/
+h1 {
+  text-align:center;
+  color:#512100;
+  font-size:2.75rem;
+  margin:0.25em 0em 0.25em 0em;
+}
+
+/*h2*/
+.rocks h2 {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.6));
+  text-align:center;
+  font-size:1.5rem;
+  padding-top:7em;
+  color:white;
+  width:100%;
+  margin:0;
+  padding-bottom:2em;
+}
+
+.rocks {
+  background-image: url("../img/rocks.jpg");
+  padding-top: 10em;
+  margin:0;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Nav*/
+nav{
+  background-color:#a08774;
+  background-color: rgba(81, 34, 0, 0.5);
+  text-align:center;
+  clear:both;
+}
+
+nav ul {
+  list-style:none;
+  margin:0em;
+  padding:0em;
+  display:inline;
+  width:100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+nav ul li {
+  display:inline;
+  margin:0;
+  padding: 0.5em;
+  font-size:1.5em;
+  float:left;
+  width:25%;
+  box-sizing:border-box;
+  text-align:center;
+}
+
+nav a {
+  color: #fff;
+  display:inline-block;
+  margin:0em;
+  padding:1em 1em 1em 1em;
+  font-size:1em;
+  text-decoration:none;
+}
+
+a:hover {
+  color:white;
+  background-color: #583c29;
+}
+
+/*main*/
+.main  {
+	width: 100%;
+	position:relatives;
+}
+
+figure{
+	width: 50%;
+	float: left;
+	display: block;
+	background-color: green;
+	margin: 0;
+	position: relative;
+}
+
+figure img{
+	width: 100%;
+	display:block;
+}
+
+figcaption{
+	display: block;
+	position: absolute;
+	width: 60%;
+  background-color: #388200;
+  bottom: 1em;
+	left: 25%;
+	text-align: center;
+	color: #fff;
+	font-size: 1em;
+	background-image: linear-gradient(to bottom, #6fc000, #388200);
+	padding: 0.5em;
+	border-radius:20px;
+}
+
+a:hover figcaption{
+    	background-color: #388200;
+    	background-image: linear-gradient(to bottom, #388200, #214d00);
+}
+
+/*footer*/
+footer {
+  clear:both;
+  background-color: rgba(81, 34, 0, 0.5);
+  padding:0.5em 0em 0.5em 0em;
+}
+
+.logobottomimg {
+  margin:0em;
+  padding:0em;
+  border:0em;
+  width:30px;
+  display:block;
+  margin:0 50% 0 50%;
+}
